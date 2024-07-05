@@ -1,0 +1,91 @@
+Makefile中修改
+        CFLAGS=-Wall -O3 -g -mavx2 -mavx512f -mavx512bw
+        CXXFLAGS=-Wall -O3 -g -mavx2 -mavx512f -mavx512bw
+
+
+libcrypto.map 添加      
+        sm2_key_generate;
+        sm2_key_get_private;
+        sm2_new_bn;
+        sm2_key_get_public;
+        sm2_new_point;
+        sm2_public_key_info_from_pem;
+        sm2_private_key_info_decrypt_from_pem;
+        sm2_do_sign;
+        sm2_do_verify;
+        sm2_compute_z_digest;
+        ec_group_do_inverse_ord;
+        sm2_sign_precomp;
+        sm2_sign;
+        sm2_verify;
+        sm3_hmac_init;
+        sm3_hmac_update;
+        sm3_hmac_finish;
+        sm3_avx_init;
+        sm3_avx_update;
+        sm3_avx_final;
+        sm4_cbc_mac_init;
+        sm4_cbc_mac_update;
+        sm4_cbc_mac_finish;
+        hex_to_bytes;
+        sm2_ciphertext_size;
+        sm2_encrypt;
+        sm2_plaintext_size;
+        sm2_decrypt;
+        sm2_get_ciphertext;
+        sm2_set_ciphertext;
+        sm2_sig_get;
+        sm2_sig_set;
+        SDF_LoadLibrary;
+        SDF_Load2Library;
+        SDF_UnloadLibrary;
+        SDF_OpenDevice;
+        SDF_CloseDevice;
+        SDF_OpenSession;
+        SDF_CloseSession;
+        SDF_GetDeviceInfo;
+        SDF_GenerateRandom;
+        SDF_GetPrivateKeyAccessRight;
+        SDF_ReleasePrivateKeyAccessRight;
+        SDF_ExportSignPublicKey_RSA;
+        SDF_ExportEncPublicKey_RSA;
+        SDF_GenerateKeyPair_RSA;
+        SDF_GenerateKeyWithIPK_RSA;
+        SDF_GenerateKeyWithEPK_RSA;
+        SDF_ImportKeyWithISK_RSA;
+        SDF_ExchangeDigitEnvelopeBaseOnRSA;
+        SDF_ExportSignPublicKey_ECC;
+        SDF_ExportEncPublicKey_ECC;
+        SDF_GenerateKeyPair_ECC;
+        SDF_GenerateKeyWithIPK_ECC;
+        SDF_GenerateKeyWithEPK_ECC;
+        SDF_ImportKeyWithISK_ECC;
+        SDF_GenerateAgreementDataWithECC;
+        SDF_GenerateKeyWithECC;
+        SDF_GenerateAgreementDataAndKeyWithECC;
+        SDF_ExchangeDigitEnvelopeBaseOnECC;
+        SDF_GenerateKeyWithKEK;
+        SDF_ImportKeyWithKEK;
+        SDF_DestroyKey;
+        SDF_ExternalPublicKeyOperation_RSA;
+        SDF_InternalPublicKeyOperation_RSA;
+        SDF_InternalPrivateKeyOperation_RSA;
+        SDF_ExternalVerify_ECC;
+        SDF_InternalSign_ECC;
+        SDF_InternalVerify_ECC;
+        SDF_ExternalEncrypt_ECC;
+        SDF_InternalEncrypt_ECC;
+        SDF_InternalDecrypt_ECC;
+        SDF_Encrypt;
+        SDF_Decrypt;
+        SDF_CalculateMAC;
+        SDF_HashInit;
+        SDF_HashUpdate;
+        SDF_HashFinal;
+        SDF_CreateFile;
+        SDF_ReadFile;
+        SDF_WriteFile;
+        SDF_DeleteFile;
+
+
+

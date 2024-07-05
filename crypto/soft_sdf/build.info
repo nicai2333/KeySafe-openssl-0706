@@ -1,0 +1,3 @@
+LIBS=../../libcrypto
+SOURCE[../../libcrypto]=\
+        debug.c hex.c sdf_sm2.c sdf_sm3.c sdf_sm4.c sdf_ext.c sdf_lib.c sdf_meth.c sdf_sansec.c

@@ -1,0 +1,21 @@
+Forked child 0
+Forked child 1
+Forked child 2
+Forked child 3
+Forked child 4
+Forked child 5
+Forked child 6
+Forked child 7
+Forked child 8
+Forked child 9
+Forked child 10
+Forked child 11
+Forked child 12
+Forked child 13
+Forked child 14
+Forked child 15
+OpenSSL 1.1.1i  8 Dec 2020
+built on: Tue May 28 09:25:34 2024 UTC
+options:bn(64,64) rc4(16x,int) des(int) aes(partial) idea(int) blowfish(ptr) 
+compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack  -DOPENSSL_NO_SM3_NEON -Wall -O3 -g -mavx2 -mavx512f -mavx512bw -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_CPUID_OBJ -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DKECCAK1600_ASM -DRC4_ASM -DMD5_ASM -DAESNI_ASM -DVPAES_ASM -DGHASH_ASM -DECP_NISTZ256_ASM -DX25519_ASM -DPOLY1305_ASM
+evp                  0.00         0.00         0.00         0.00         0.00         0.00 
